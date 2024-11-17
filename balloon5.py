@@ -21,6 +21,7 @@ class Balloon:
         return (f'{self.__color} balloon, {self.__size} inch diameter,'
                 f' {is_inflated} inflated\n')
 
+
     @staticmethod
     def get_number_of_balloons():
         return f'Number of balloons made: {Balloon.__counter}\n'
