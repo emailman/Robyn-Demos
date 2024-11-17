@@ -7,7 +7,6 @@ flight_attendant
 
 
 class FlightCrew:
-
     def __init__(self, pilot, copilot, flight_attendant):
         self.pilot = pilot
         self.copilot = copilot
@@ -20,7 +19,6 @@ class FlightCrew:
 
 
 class CrewMember:
-
     def __init__(self, name):
         self.name = name
 
@@ -28,7 +26,6 @@ class CrewMember:
 class Pilot(CrewMember):
     def __init__(self, name):
         super().__init__(name)
-
 
     def __str__(self):
         return f"The crew's pilot is {self.name}"
@@ -58,6 +55,7 @@ def main():
     flight_crew = FlightCrew(pilot, copilot, flight_attendant)
 
     print(flight_crew)
+
 
 if __name__ == '__main__':
     main()
