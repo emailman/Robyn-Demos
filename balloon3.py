@@ -23,7 +23,7 @@ def main():
     print(balloon1)
     balloon1.inflated = True
     print(balloon1)
-    balloon1.__color__ = 'blue'  # this does not work
+    balloon1.__color = 'blue'  # this does not work
     print(balloon1)
 
 
